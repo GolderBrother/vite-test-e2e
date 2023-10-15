@@ -1,0 +1,40 @@
+{
+  "name": "vite-test-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "cypress open",
+    "test:ct": "cypress open-ct"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@cypress/vite-dev-server": "^2.2.2",
+    "@cypress/vue": "^3.1.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.21",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vue/vue3-jest": "^27.0.0-alpha.4",
+    "babel-jest": "^27.5.1",
+    "cypress": "^9.5.1",
+    "jest": "^27.5.1",
+    "jest-transform-stub": "^2.0.0",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6"
+  }
+}
